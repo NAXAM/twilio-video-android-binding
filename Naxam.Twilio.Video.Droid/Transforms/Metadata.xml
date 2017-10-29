@@ -1,0 +1,11 @@
+﻿<metadata>
+  <attr
+    path="/api/package[@name='com.twilio.video']/interface[@name='Track']"
+    name="visibility">public</attr>
+  <attr
+    path="/api/package[@name='org.webrtc']/class[@name='StatsReport.Value']/field[@name='value']"
+    name="managedName">ReportValue</attr>
+  <attr
+    path="/api/package[@name='org.webrtc']/class[@name='EglBase14']/method[@name='getEglBaseContext' and count(parameter)=0]"
+    name="managedReturn">Org.Webrtc.EglBase.Context</attr>
+</metadata>

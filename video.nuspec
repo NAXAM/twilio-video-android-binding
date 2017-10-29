@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Twilio.Video.Droid</id>
+        <version>1.3.5.0</version>
+        <description>Xamarin Binding Library - Twilio Video Android</description>
+        <authors>NAXAM</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>NAXAM - Twilio Video Android</title>
+        <releaseNotes>Twilio Video Android v1.35.0</releaseNotes>
+        <summary>Xamarin Binding Library - Twilio Video Android</summary>
+        <iconUrl>https://avatars2.githubusercontent.com/u/5090060</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/twilio-video-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, twilio, twilio video, twilio.video,twiliovideo</tags>
+        <dependencies>
+             
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Twilio.Video.Droid/bin/Release/Naxam.Twilio.Video.Droid.dll" target="lib/MonoAndroid10/Naxam.Twilio.Video.Droid.dll" />
+    </files>
+</package>
