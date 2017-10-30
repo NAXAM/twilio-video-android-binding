@@ -8,4 +8,7 @@
   <attr
     path="/api/package[@name='org.webrtc']/class[@name='EglBase14']/method[@name='getEglBaseContext' and count(parameter)=0]"
     name="managedReturn">Org.Webrtc.EglBase.Context</attr>
+  <attr
+    path="/api/package[@name='org.webrtc']/class[@name='SessionDescription']/field[@name='type']"
+    name="managedName">_type</attr>
 </metadata>

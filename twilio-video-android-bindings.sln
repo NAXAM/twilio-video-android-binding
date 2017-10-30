@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.Twilio.Video.Droid", "Naxam.Twilio.Video.Droid\Naxam.Twilio.Video.Droid.csproj", "{70CA0CEB-0207-4D42-9B26-1C8AB970B1AF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{8C56E865-7DA9-45A0-BC81-AA2FE11A6216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwilioVideoQs", "demo\TwilioVideoQs\TwilioVideoQs.csproj", "{15C8CDB4-CFF7-4670-8AAE-C62548916CA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,18 @@ Global
 		{70CA0CEB-0207-4D42-9B26-1C8AB970B1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70CA0CEB-0207-4D42-9B26-1C8AB970B1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70CA0CEB-0207-4D42-9B26-1C8AB970B1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15C8CDB4-CFF7-4670-8AAE-C62548916CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15C8CDB4-CFF7-4670-8AAE-C62548916CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15C8CDB4-CFF7-4670-8AAE-C62548916CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15C8CDB4-CFF7-4670-8AAE-C62548916CA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8BC438B-375B-484B-B5E7-B4EC321C9C46}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15C8CDB4-CFF7-4670-8AAE-C62548916CA8} = {8C56E865-7DA9-45A0-BC81-AA2FE11A6216}
 	EndGlobalSection
 EndGlobal
